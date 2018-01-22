@@ -28,6 +28,8 @@ namespace ARCore
 			zone = scene.CreateComponent<Zone>();
 			zone.AmbientColor = new Color(1, 1, 1) * 0.2f;
 
+            //my comments
+
 			// Camera
 			var cameraNode = scene.CreateChild(name: "Camera");
 			var camera = cameraNode.CreateComponent<Urho.Camera>();
